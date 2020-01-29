@@ -21,4 +21,8 @@ class School
   def add_student_name(student_name_parameter)
     @student_names << student_name_parameter
   end
+
+  def end_time
+    (@start_time.to_i + @hours_in_school_day).to_s + ":00"
+  end
 end
