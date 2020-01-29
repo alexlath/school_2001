@@ -1,4 +1,5 @@
 require 'time'
+
 class School
 
   def initialize(start_time_parameter, hours_in_school_day_parameter)
@@ -36,7 +37,7 @@ class School
   end
 
   def convert_end_time_to_clock_time
-    # this method should be improved to return clock time, not a string
+    # this method should be improved to return clock time, not a string. Something about a Time class?
     end_time.to_i > 12 ? (end_time.to_i - 12).to_s + ":00" : end_time
   end
 end

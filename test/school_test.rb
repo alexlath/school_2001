@@ -1,7 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/school'
-require 'time'
 
 class SchoolTest < Minitest::Test
   #Iteration 1 Tests:
