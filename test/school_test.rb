@@ -68,6 +68,7 @@ class SchoolTest < Minitest::Test
   def test_it_can_convert_24hr_time_to_12hr_time
     school = School.new('9:00', 7)
 
+    # issue with next line, first argument should be 4:00 (no '')
     assert_equal '4:00', school.convert_end_time_to_clock_time
   end
 end
