@@ -17,4 +17,8 @@ class School
   def student_names
     @student_names
   end
+
+  def add_student_name(student_name_parameter)
+    @student_names << student_name_parameter
+  end
 end
