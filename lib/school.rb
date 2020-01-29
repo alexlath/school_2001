@@ -8,4 +8,8 @@ class School
   def start_time
     @start_time
   end
+
+  def hours_in_school_day
+    @hours_in_school_day
+  end
 end
